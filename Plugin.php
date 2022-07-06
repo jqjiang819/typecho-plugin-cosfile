@@ -295,6 +295,7 @@ class CosForTypecho_Plugin implements Typecho_Plugin_Interface {
         $options = Typecho_Widget::widget('Widget_Options')->plugin('CosForTypecho');
         require_once 'phar://'. __DIR__ .'/cos-sdk-v5.phar/vendor/autoload.php';;
         return new Qcloud\Cos\Client(array('region' => $options->region,
+	    'userAgent'=>'typecho',
             'credentials'=> array(
                 'secretId' => $options->secid,
                 'secretKey' => $options->sekey)));
