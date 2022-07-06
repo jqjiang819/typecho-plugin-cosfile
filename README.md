@@ -1,5 +1,9 @@
 # CosForTypecho
 
+**Important: This repo is no longer maintained since I am not using typecho for years, and you may suffer from bugs and security issues. If you want any features or bug fixing, please fork, thanks!**
+
+**重要提示: 抱歉，此插件已停止维护！由于我已长期未使用Typecho，此插件可能存在无法预知的问题以及安全隐患。由于无法测试，因此也不再接收PR。如有需要，可自行fork和修改。感谢！**
+
 CosForTypecho是基于Typecho的一个支持文件附件上传、修改和删除功能的插件。（支持Typecho 1.x版本）
 
 ## 插件功能
